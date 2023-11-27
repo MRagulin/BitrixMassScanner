@@ -32,7 +32,7 @@ dangerous_urls = ["/bitrix/modules/main/include/virtual_file_system.php", "/bitr
 print("Start checking ...")
 
 
-def Scanner(schemas=['https://'], domains=['alfastrah.ru'], urls=['/bitrix/admin'], shortURL=False):
+def Scanner(schemas=['https://'], domains=['b24.kz'], urls=['/bitrix/admin'], shortURL=False):
     urllib3.disable_warnings()
     buf = []
     tmp = ''
